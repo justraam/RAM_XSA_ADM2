@@ -1,0 +1,10 @@
+namespace ADM2.HDB1;
+
+context VENDOR {
+
+    /*@@layout{"layoutInfo":{"x":86,"y":101.5}}*/
+    entity VENDOR {
+        key ID   : String(10);
+            NAME : String(25);
+    };
+};
